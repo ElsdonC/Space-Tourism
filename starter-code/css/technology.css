@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(/starter-code/assets/technology/background-technology-desktop.jpg)
+  background: url(/assets/technology/background-technology-desktop.jpg)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -118,7 +118,7 @@ body {
   body {
     margin: 0;
     padding: 0;
-    background: url(/starter-code/assets/technology/background-technology-mobile.jpg)
+    background: url(/assets/technology/background-technology-mobile.jpg)
       no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -259,7 +259,7 @@ body {
     top: 20vh;
     height: 20vh;
     width: 100vw;
-    content: url("/starter-code/assets/technology/image-launch-vehicle-landscape.jpg");
+    content: url("/assets/technology/image-launch-vehicle-landscape.jpg");
   }
 
   #spaceportImg {
@@ -268,7 +268,7 @@ body {
     top: 20vh;
     height: 20vh;
     width: 100vw;
-    content: url("/starter-code/assets/technology/image-spaceport-landscape.jpg");
+    content: url("/assets/technology/image-spaceport-landscape.jpg");
   }
 
   #capsuleImg {
@@ -277,7 +277,7 @@ body {
     top: 20vh;
     height: 20vh;
     width: 100vw;
-    content: url("/starter-code/assets/technology/image-space-capsule-landscape.jpg");
+    content: url("/assets/technology/image-space-capsule-landscape.jpg");
   }
 }
 
@@ -287,7 +287,7 @@ body {
   body {
     margin: 0;
     padding: 0;
-    background: url(/starter-code/assets/technology/background-technology-tablet.jpg)
+    background: url(/assets/technology/background-technology-tablet.jpg)
       no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -429,7 +429,7 @@ body {
     top: 20vh;
     height: 27.5vh;
     width: 100vw;
-    content: url("/starter-code/assets/technology/image-launch-vehicle-landscape.jpg");
+    content: url("/assets/technology/image-launch-vehicle-landscape.jpg");
   }
 
   #spaceportImg {
@@ -438,7 +438,7 @@ body {
     top: 20vh;
     height: 27.5vh;
     width: 100vw;
-    content: url("/starter-code/assets/technology/image-spaceport-landscape.jpg");
+    content: url("/assets/technology/image-spaceport-landscape.jpg");
   }
 
   #capsuleImg {
@@ -447,6 +447,6 @@ body {
     top: 20vh;
     height: 27.5vh;
     width: 100vw;
-    content: url("/starter-code/assets/technology/image-space-capsule-landscape.jpg");
+    content: url("/assets/technology/image-space-capsule-landscape.jpg");
   }
 }
