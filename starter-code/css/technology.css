@@ -105,7 +105,7 @@ body {
   color: #d0d6f9;
 }
 
-#vehicleImg {
+#vehicleImg, #spaceportImg, #capsuleImg{
   position: absolute;
   right: 0;
   bottom: 15vh;
