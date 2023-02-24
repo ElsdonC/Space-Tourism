@@ -1,0 +1,590 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/starter-code/assets/destination/background-destination-desktop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.destination {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    letter-spacing: 0.25vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 23.5vh;
+    left: 15.2vw;
+}
+
+.destination b {
+    color: #979797;
+}
+
+#planetImg {
+    height: 49.5vh;
+    width: 49.5vh;
+    position: absolute;
+    bottom: 12.5vh;
+    left: 15vw;
+}
+
+.content {
+    width: 22vw;
+    position: absolute;
+    top: 30vh;
+    right: 20vw;
+}
+
+/* Destination Nav Bar */
+#destinationNav {
+    padding: 0;
+}
+
+#destinationNav ul {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#destinationNav li {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vh;
+    letter-spacing: 0.2vw;
+    color: #FFFFFF;
+    padding: 0 2vh 0 0;
+    line-height: 3vh;
+}
+
+#destinationNav a {
+    display: block;
+    position: relative;
+    padding: 1vh 0;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Fade in */
+#destinationNav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0vh;
+    left: 0vh;
+    width: 100%;
+    height: 0.25em;
+    background-color: #979797;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    opacity: 1;
+    transform: translate3d(-101%, 0, 0);
+  }
+
+#destinationNav li:hover {
+    cursor: pointer;
+}
+
+#destinationNav a:hover::after,
+#destinationNav a:focus::after{
+    transform: translate3d(0, 0, 0);
+}
+
+#destinationNav .active {
+    text-decoration: underline white 0.25em;
+    text-underline-offset: 1.35vh;
+}
+
+#destinationNav .items {
+    display: flex;
+    flex-direction: row;
+}
+#planet {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10vh;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 4vh;
+}
+
+#description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vh;
+    line-height: 3vh;
+    color: #D0D6F9;
+}
+
+#destinationHR {
+    width: 100%;
+    margin: 6vh 0 0 0;
+    background: #383B4B;
+    position:relative;
+}
+
+#numbers {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#distance, #time {
+    display: flex;
+    flex-direction: column;
+}
+
+#time {
+    position: absolute;
+    left: 50%;
+}
+
+#label {
+    margin: 3vh 0 0 0;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vh;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;  
+    color: #D0D6F9; 
+}
+
+#metric {
+    margin: 1vh 0 0 0;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    padding-top: 1vh;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: url(/starter-code/assets/destination/background-destination-desktop.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .destination {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vh;
+        letter-spacing: 1vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: relative;
+        text-align: center;
+        top: 0;
+        left: 0;
+    }
+
+    .destination p {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .destination b {
+        color: #979797;
+    }
+
+    .container {
+        height: 100%;
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #planetImg {
+        height: 30vh;
+        width: 30vh;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        padding: 2vh 0;
+    }
+
+    .content {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Destination Nav Bar */
+    #destinationNav {
+        padding: 2vh 0 0 0;
+    }
+    
+    #destinationNav ul {
+        width: 75vw;
+        margin: 0;
+        padding: 0;
+        height: 5vh;
+        list-style: none;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    #destinationNav li {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vh;
+        letter-spacing: 0.2vw;
+        color: #FFFFFF;
+        padding: 0 2vh 0 0;
+        line-height: 3vh;
+    }
+    
+    #destinationNav a {
+        display: block;
+        position: relative;
+        padding: 1vh 0;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      /* Fade in */
+    #destinationNav a::after {
+        content: '';
+        position: absolute;
+        bottom: 0vh;
+        left: 0vh;
+        width: 100%;
+        height: 0.25em;
+        background-color: #979797;
+        opacity: 0;
+        transition: opacity 300ms, transform 300ms;
+        opacity: 1;
+        transform: translate3d(-101%, 0, 0);
+      }
+    
+    #destinationNav li:hover {
+        cursor: pointer;
+    }
+    
+    #destinationNav a:hover::after,
+    #destinationNav a:focus::after{
+        transform: translate3d(0, 0, 0);
+    }
+    
+    #destinationNav .active {
+        text-decoration: underline white 0.25em;
+        text-underline-offset: 1.35vh;
+    }
+    
+    #destinationNav .items {
+        display: flex;
+        flex-direction: row;
+    }
+    #planet {
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15vw;
+        color: #FFFFFF;
+        margin: 0;
+        padding-top: 3vh;
+    }
+    
+    #description {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.2vh;
+        line-height: 3vh;
+        color: #D0D6F9;
+        width: 81.5vw;
+        text-align: center;
+        margin: 3vh 0 0vh 0;
+    }
+    
+    #destinationHR {
+        display: block;
+        width: 75vw;
+        height: 2px;
+        background-color: #383B4B;
+        border: none;
+        position:relative;
+        margin: 4vh 0 0 0;
+    }
+    
+    #numbers {
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 75vw;
+        margin: 0 0 5vh 0;
+    }
+
+    #distance, #time{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+    }
+    
+    #label {
+        margin: 3vh 0 0 0;
+        text-align: center;
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vh;
+        letter-spacing: 0.2vw;
+        text-transform: uppercase;  
+        color: #D0D6F9; 
+    }
+    
+    #metric {
+        margin: 1vh 0 0 0;
+        text-align: center;
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3vh;
+        padding-top: 1vh;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+
+/* Tablet */
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: url(/starter-code/assets/destination/background-destination-desktop.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .destination {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vh;
+        letter-spacing: 0.3vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        top: 12vh;
+        left: 5vw;
+    }
+
+    .destination p {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .destination b {
+        color: #979797;
+    }
+
+    .container {
+        height: 100%;
+        margin-top: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #planetImg {
+        height: 30vh;
+        width: 30vh;
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .content {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Destination Nav Bar */
+    #destinationNav {
+        padding: 3vh 0 0 0;
+    }
+    
+    #destinationNav ul {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        height: 5vh;
+        list-style: none;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #destinationNav li {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vh;
+        letter-spacing: 0.2vw;
+        color: #FFFFFF;
+        padding: 0 2vh 0 0;
+        line-height: 3vh;
+    }
+    
+    #destinationNav a {
+        display: block;
+        position: relative;
+        padding: 1vh 0;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      /* Fade in */
+    #destinationNav a::after {
+        content: '';
+        position: absolute;
+        bottom: 0vh;
+        left: 0vh;
+        width: 100%;
+        height: 0.25em;
+        background-color: #979797;
+        opacity: 0;
+        transition: opacity 300ms, transform 300ms;
+        opacity: 1;
+        transform: translate3d(-101%, 0, 0);
+      }
+    
+    #destinationNav li:hover {
+        cursor: pointer;
+    }
+    
+    #destinationNav a:hover::after,
+    #destinationNav a:focus::after{
+        transform: translate3d(0, 0, 0);
+    }
+    
+    #destinationNav .active {
+        text-decoration: underline white 0.25em;
+        text-underline-offset: 1.35vh;
+    }
+    
+    #destinationNav .items {
+        display: flex;
+        flex-direction: row;
+    }
+    #planet {
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10vh;
+        color: #FFFFFF;
+        margin: 0;
+        padding-top: 3vh;
+    }
+    
+    #description {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6vh;
+        line-height: 3vh;
+        color: #D0D6F9;
+        width: 76vw;
+        text-align: center;
+        margin: 1vh 0 0 0;
+    }
+    
+    #destinationHR {
+        display: block;
+        width: 75vw;
+        height: 2px;
+        background-color: #383B4B;
+        border: none;
+        position:relative;
+        margin: 4vh 0 0 0;
+    }
+    
+    #numbers {
+        position: relative;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 75vw;
+    }
+
+    #distance, #time{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+    }
+    
+    #label {
+        margin: 3vh 0 0 0;
+        text-align: center;
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vh;
+        letter-spacing: 0.2vw;
+        text-transform: uppercase;  
+        color: #D0D6F9; 
+    }
+    
+    #metric {
+        margin: 1vh 0 0 0;
+        text-align: center;
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3vh;
+        padding-top: 1vh;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}

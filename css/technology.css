@@ -1,0 +1,452 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/starter-code/assets/technology/background-technology-desktop.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.technology {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+  letter-spacing: 0.25vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  top: 23.5vh;
+  left: 15.2vw;
+}
+
+.technology b {
+  color: #979797;
+}
+
+.techNav {
+  width: max-content;
+  position: absolute;
+  left: 15.2vw;
+  top: 42.5vh;
+}
+
+.techNav li {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #979797;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 3.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.techNav li:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.techNav a {
+  vertical-align: middle;
+  font-size: 2.5vh;
+  color: white;
+}
+
+.techNav .active a {
+  color: black;
+}
+
+.techNav .active {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.text {
+  position: absolute;
+  top: 42.5vh;
+  width: 25vw;
+  left: 25vw;
+}
+
+#title {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vh;
+  letter-spacing: 0.2vw;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+
+#tech {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vh;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 0;
+}
+
+#description {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8vh;
+  line-height: 3vh;
+  color: #d0d6f9;
+}
+
+#vehicleImg {
+  position: absolute;
+  right: 0;
+  bottom: 15vh;
+  height: 50vh;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: url(/starter-code/assets/technology/background-technology-mobile.jpg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .sub-content {
+    position: absolute;
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .technology {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+  }
+
+  .technology p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .technology b {
+    color: #979797;
+  }
+
+  .techNav {
+    width: max-content;
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+  }
+
+  .techNav li {
+    height: 12.5vw;
+    width: 12.5vw;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #979797;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .techNav li:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  .techNav a {
+    vertical-align: middle;
+    font-size: 2.5vh;
+    color: white;
+  }
+
+  .techNav .active a {
+    color: black;
+  }
+
+  .techNav .active {
+    background-color: white;
+    border: 1px solid white;
+  }
+
+  .text {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #title {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    letter-spacing: 0.2vw;
+    color: #d0d6f9;
+    text-transform: uppercase;
+  }
+
+  #tech {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  #description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 3vh;
+    color: #d0d6f9;
+    width: 85vw;
+  }
+
+  #vehicleImg {
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    height: 20vh;
+    width: 100vw;
+    content: url("/starter-code/assets/technology/image-launch-vehicle-landscape.jpg");
+  }
+
+  #spaceportImg {
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    height: 20vh;
+    width: 100vw;
+    content: url("/starter-code/assets/technology/image-spaceport-landscape.jpg");
+  }
+
+  #capsuleImg {
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    height: 20vh;
+    width: 100vw;
+    content: url("/starter-code/assets/technology/image-space-capsule-landscape.jpg");
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: url(/starter-code/assets/technology/background-technology-tablet.jpg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .sub-content {
+    position: absolute;
+    bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .technology {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+  }
+
+  .technology p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .technology b {
+    color: #979797;
+  }
+
+  .techNav {
+    width: max-content;
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+  }
+
+  .techNav li {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #979797;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 3.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .techNav li:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  .techNav a {
+    vertical-align: middle;
+    font-size: 2.5vh;
+    color: white;
+  }
+
+  .techNav .active a {
+    color: black;
+  }
+
+  .techNav .active {
+    background-color: white;
+    border: 1px solid white;
+  }
+
+  .text {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #title {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    letter-spacing: 0.2vw;
+    color: #d0d6f9;
+    text-transform: uppercase;
+  }
+
+  #tech {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  #description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 3vh;
+    color: #d0d6f9;
+    width: 67.5vw;
+  }
+
+  #vehicleImg {
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    height: 27.5vh;
+    width: 100vw;
+    content: url("/starter-code/assets/technology/image-launch-vehicle-landscape.jpg");
+  }
+
+  #spaceportImg {
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    height: 27.5vh;
+    width: 100vw;
+    content: url("/starter-code/assets/technology/image-spaceport-landscape.jpg");
+  }
+
+  #capsuleImg {
+    position: absolute;
+    right: 0;
+    top: 20vh;
+    height: 27.5vh;
+    width: 100vw;
+    content: url("/starter-code/assets/technology/image-space-capsule-landscape.jpg");
+  }
+}

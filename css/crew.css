@@ -1,0 +1,422 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/starter-code/assets/crew/background-crew-desktop.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.crew {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+  letter-spacing: 0.25vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  top: 23.5vh;
+  left: 15.2vw;
+}
+
+.crew b {
+  color: #979797;
+}
+
+.crewNav {
+  font-size: 20vh;
+  position: absolute;
+  left: 15vw;
+  margin: 0;
+  bottom: 5vh;
+  mix-blend-mode: normal;
+}
+
+.crewNav ul {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 5vh;
+  margin: 0;
+  padding: 0;
+}
+
+.crewNav li {
+  list-style: none;
+  font-size: 10vh;
+  color: #ffffff;
+  opacity: 0.17;
+}
+.crewNav a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.crewNav .active {
+  color: white;
+  opacity: 1;
+}
+
+#title {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5vh;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 0 0 1.5vh 0;
+}
+
+#name {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vh;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 0 0 3vh 0;
+}
+
+#description {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vh;
+  line-height: 3vh;
+  color: #d0d6f9;
+}
+
+.text {
+  position: absolute;
+  left: 15.2vw;
+  top: 44.5vh;
+  width: 25vw;
+}
+
+#crewImg {
+  position: absolute;
+  bottom: 0;
+  right: 15vw;
+  width: 30vw;
+}
+
+.img hr {
+    display: none;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: url(/starter-code/assets/crew/background-crew-desktop.jpg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-content {
+    position: absolute;
+    top: 55vh;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5vh 0 0 0;
+  }
+
+  .crew {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25vh;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: absolute;
+    top: 7.5vh;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .crew b {
+    color: #979797;
+  }
+
+  .crewNav {
+    font-size: 20vh;
+    position: absolute;
+    left: auto;
+    margin: 0;
+    bottom: auto;
+    top: 45vh;
+    mix-blend-mode: normal;
+  }
+
+  .crewNav ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .crewNav li {
+    list-style: none;
+    font-size: 10vh;
+    color: #ffffff;
+    opacity: 0.17;
+  }
+  .crewNav a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+  }
+
+  li:hover {
+    cursor: pointer;
+  }
+
+  .crewNav .active {
+    color: white;
+    opacity: 1;
+  }
+
+  #title {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25vh;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 0 0 1vh 0;
+    
+  }
+
+  #name {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+    margin: 0 0 1vh 0;
+  }
+
+  #description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vh;
+    line-height: 3vh;
+    color: #d0d6f9;
+  }
+
+  .text {
+    position: relative;
+    left: auto;
+    top: 0;
+    width: 85vw;
+    text-align: center;
+  }
+
+  #crewImg {
+    position: relative;
+    bottom: 0;
+    right: auto;
+    top: 0;
+    width: auto;
+    height: 30vh;
+  }
+
+  .container hr {
+    display: block;
+    border: none;
+    background: #383B4B;
+    height: 1px;
+    width: 90vw;
+    margin: 0;
+    position: relative;
+  }
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 10vh;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: url(/starter-code/assets/crew/background-crew-tablet.jpg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden;
+  }
+
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crew {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+  }
+
+  .crew p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .crew b {
+    color: #979797;
+  }
+
+  .crewNav {
+    font-size: 20vh;
+    position: relative;
+    left: 0vw;
+    margin: 0;
+    bottom: 0vh;
+    top: 3.5vh;
+    mix-blend-mode: normal;
+  }
+
+  .crewNav ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 5vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .crewNav li {
+    list-style: none;
+    font-size: 10vh;
+    color: #ffffff;
+    opacity: 0.17;
+  }
+  .crewNav a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+  }
+
+  li:hover {
+    cursor: pointer;
+  }
+
+  .crewNav .active {
+    color: white;
+    opacity: 1;
+  }
+
+  #title {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 0 0 1.5vh 0;
+  }
+
+  #name {
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+    margin: 0;
+    
+  }
+
+  #description {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vh;
+    line-height: 3vh;
+    color: #d0d6f9;
+  }
+
+  .text {
+    position: relative;
+    left: 0vw;
+    top: 5vh;
+    text-align: center;
+    width: 65vw;
+  }
+
+  #crewImg {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 50vh;
+  }
+}
