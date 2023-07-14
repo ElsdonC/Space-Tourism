@@ -1,35 +1,21 @@
 
-<h1 align="center">🚀 Space Tourism Multi-Page Website</h1>
+<h1>🚀 Space Tourism Site</h1>
 
+This landing page allows users to view the optimal layout for each of the website's pages depending on their device's screen size, see hover states for all interactive elements on the page, and view each page and be able to toggle between the tabs to see new information.
+
+Link to Project: [https://elsdonc-space-tourism.vercel.app/ ](https://elsdonc-space-tourism.vercel.app/)
+
+# Preview
 ![Design preview for the Space tourism website coding challenge](./preview.jpg)
 
-This is a solution to the [Space tourism multi-page website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. The challenges provide Figma designs for developers to reconstruct through code.
+## How It's Made
 
-<h2 align="center">Links</h2>
+**Tech used:** HTML, CSS, JavaScript
 
-- Solution URL: [Space tourism multi-page website (Flexbox CSS) | Frontend Mentor](https://www.frontendmentor.io/solutions/space-tourism-multipage-website-flexbox-css-V4zXFJdX-A)
-- Live Site URL: [https://elsdonc-space-tourism.vercel.app/](https://elsdonc-space-tourism.vercel.app/)
+- Implemented Figma designs with code and incorporated responsiveness throughout the site.
 
-## Overview
+## Optimizations
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for each of the website's pages depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each page and be able to toggle between the tabs to see new information
-
-## My process
-
-### Built with
-
-<!-- Bagdes -->
-
-![](https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css3&logoColor=white)
-![](https://img.shields.io/badge/JAVASCRIPT-323330?style=for-the-badge&logo=javascript&logoColor=F0DB4F)
-
-## Author
-
-- Frontend Mentor - [@ElsdonC](https://www.frontendmentor.io/profile/ElsdonC)
+Some future tweaks if time allows:
+- Incorporate a frontend framework to reduce unecessary repeating code.
+- Pull data from a JSON file rather than hard coding the content.
