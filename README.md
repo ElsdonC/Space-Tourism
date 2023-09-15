@@ -21,6 +21,6 @@ Some future tweaks if time allows:
 - Incorporate a frontend framework to reduce unecessary repeating code.
 - Pull data from a JSON file rather than hard coding the content.
 
-## What I Learned
+## Lessons Learned
 
 I learned how to make a website responsive by using media queries which is crucial for a good user experience. Additionally I gained experience translating Figma designs into code which increased my effectiveness to work with designers and turn design concepts into functional web pages.
