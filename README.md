@@ -5,6 +5,10 @@ This landing page allows users to view the optimal layout for each of the websit
 
 [https://elsdonc-space-tourism.vercel.app/ ](https://elsdonc-space-tourism.vercel.app/)
 
+## Preview
+
+<img width="1248" alt="image" src="https://github.com/ElsdonC/Space-Tourism/assets/67447710/c3a61bd5-ba15-4ab6-a8fa-8b5da87ca8b3">
+
 ## How It's Made
 
 **Tech used:** HTML, CSS, JavaScript
